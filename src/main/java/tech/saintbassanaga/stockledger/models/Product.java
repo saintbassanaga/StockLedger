@@ -4,16 +4,20 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.math.BigDecimal;
 import java.util.UUID;
 
 @Getter
 @Setter
 @Entity
-@Table(name = "product")
-public class Product {
-    @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
-    @Column(name = "id", nullable = false)
-    private UUID id;
+@Table(name = "PRODUCT")
+public class Product extends AbstractEntity {
+    private String name;
+    private String quantity;
+    private BigDecimal price;
+
+    @ManyToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "stockMouvementId")
+    private StockMouvement stockMouvement;
 
 }

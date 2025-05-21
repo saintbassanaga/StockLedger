@@ -6,4 +6,4 @@ import tech.saintbassanaga.stockledger.models.Vente;
 import java.util.UUID;
 
 public interface VenteRepository extends JpaRepository<Vente, UUID> {
-  }
+}

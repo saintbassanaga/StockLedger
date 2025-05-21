@@ -6,4 +6,4 @@ import tech.saintbassanaga.stockledger.models.Product;
 import java.util.UUID;
 
 public interface ProductRepository extends JpaRepository<Product, UUID> {
-  }
+}
