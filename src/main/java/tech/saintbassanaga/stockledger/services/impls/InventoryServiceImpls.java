@@ -1,3 +1,7 @@
+/**
+ * @author saintbassanaga
+ * @created 2023-11-15
+ */
 package tech.saintbassanaga.stockledger.services.impls;
 
 import org.springframework.stereotype.Service;
