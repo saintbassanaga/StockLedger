@@ -32,6 +32,10 @@ bash .git/hooks/pre-push
 
 The changelog format follows the [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) conventions. If you want to customize the format or behavior of the changelog generation, you can edit the pre-push hook script located at `.git/hooks/pre-push`.
 
+### Detailed Documentation
+
+For detailed information about how the changelog works, known issues, and how to fix them, please refer to the [Changelog Guide](CHANGELOG_GUIDE.md).
+
 ## Setup
 
 1. Clone the repository

@@ -11,6 +11,7 @@ import tech.saintbassanaga.stockledger.services.InventoryService;
 
 import java.util.UUID;
 
+
 @Service
 public class InventoryServiceImpls implements InventoryService {
 
