@@ -5,9 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
 ## [2025-05-22]
 
 ### Changes
+- cd627d4 - Refactor CHANGELOG.md to streamline format and remove redundant sections (saintbassanaga)
+- eacaaab - Update CHANGELOG.md before push (saintbassanaga)
+- ceec178 - Update CHANGELOG.md before push (saintbassanaga)
 - ceec178 - Update CHANGELOG.md before push (saintbassanaga)
 - 20516c5 - Update CHANGELOG.md before push (saintbassanaga)
 
